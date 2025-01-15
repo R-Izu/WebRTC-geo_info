@@ -67,7 +67,7 @@ $(function () {
     });
 
     // WebSocketを使用して位置情報をサーバに送信
-    const socket = new WebSocket('ws://localhost:8081');
+    const socket = new WebSocket('ws://localhost:8082');
 
     socket.onopen = () => {
         console.log('WebSocket接続が確立されました');
